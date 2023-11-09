@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&family=PT+Sans');
+
+:root {
+  --primary: #1aac43;
+  --error: #e7195a;
+}
+header a {
+  color: #262626;
+  text-decoration: none;
+}
+body {
+  background: #e6e6e6;
+  margin: 0;
+  font-family: "Montserrat";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Making the input box and home page pretty */
+label, input {
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Montserrat";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.message_home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+
+.message_link {
+  background: #fff;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  color: var(--primary);
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Make message display page pretty */
+.message_container {
+  background: #fff;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  color: var(--primary);
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.message_text {
+  background: #454545;
+  font-family: "PT Sans";
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #e1e1e1;
+  margin-left: 20px;
+  white-space: pre-wrap;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.05);
+}
+.message_text p {
+  margin: 10px;
+}
+
